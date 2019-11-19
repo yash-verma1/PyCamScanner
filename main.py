@@ -1,7 +1,7 @@
 # Importing libraries
 import cv2 as cv
 import numpy as np
-import os
+import sys
 
 def mapp(h):
 	h = h.reshape((4,2))
@@ -17,7 +17,10 @@ def mapp(h):
 
 	return hnew
 
-img = cv.imread('test.jpg')
+imgPath = sys.argv[1]
+
+#img = cv.imread('test.jpg')
+img = cv.imread(imgPath)
 img = cv.resize(img,(1300,800))
 
 #cv.imshow('image',img)

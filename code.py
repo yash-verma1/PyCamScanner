@@ -1,7 +1,11 @@
+import sys
 import cv2 as cv
 import numpy as np
 
-im = cv.imread('test.jpg')
+imgPath = sys.argv[1]
+
+#im = cv.imread('test.jpg')
+im = cv.imread(imgPath)
 im = cv.resize(im,(800,600))
 imgray = cv.cvtColor(im,cv.COLOR_RGB2GRAY)
 imblur = cv.GaussianBlur(imgray,(5,5),0)
@@ -17,7 +21,7 @@ imgResult = im[y:y+h,x:x+w]
 
 #cv.imshow('Result',cv.drawContours(im,[c],0,(0,255,0),3))
 
- 
+
 
 # result is correct
 cv.imshow('Result',imgResult)
