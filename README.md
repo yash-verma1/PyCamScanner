@@ -14,6 +14,7 @@ Before you begin, ensure that you have met the following requirements:
 To use PyCamScanner, follow these steps:
 
 - Run code.py and pass the image with the document as follows:
+
   ```
 python3 code.py test.jpg
   ```
