@@ -15,16 +15,16 @@ To use PyCamScanner, follow these steps:
 
 - Run code.py and pass the image with the document as follows:
 
-  ```
-python3 code.py test.jpg
-  ```
+  `python3 code.py test.jpg`
 
 When you run the command above, you should receive the following output for the following input image
 
 #### Input Image (test.jpg)
+
 ![Input Image](test.jpg)
 
 #### Output image
+
 ![Output Image](screenshots/code_output1.png)
 
 ### Future updates
