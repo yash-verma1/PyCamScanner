@@ -34,4 +34,4 @@ When you run the command above, you should receive the following output for the 
 - Integration for a phone application
 
 ### Contact
-You can reach me at yashv9119@gmail.com
+If you got questions, you can reach me at yashv9119@gmail.com
